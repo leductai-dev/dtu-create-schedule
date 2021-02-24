@@ -1,0 +1,508 @@
+.cell_tb{
+    background-color: blue;
+    color: white;
+    position: absolute;
+    width: 90%;
+    left: 5px;
+    top: 5px;
+    border-radius: 5px;
+       text-align: center;
+    height: 90px;
+    z-index: 1;
+   word-break:break-all;
+   vertical-align: middle;
+    padding: 2px;
+    text-overflow:unset;
+    
+  }
+  .container-fluid{
+    height: 800px;
+    background-size: cover;
+    max-width: 1368px;
+  }
+  body{
+   background-image: url("./background.png");
+
+  }
+
+table.table_schedule  tr > td{
+padding: 0 !important;
+margin: 0px;
+position: relative;
+width: 50px;
+height: 55px;
+    
+  
+
+}
+.container_table{
+width: 100%;
+margin: 0 auto;
+}
+
+.login_logout{
+    margin-left: auto;
+
+}
+
+
+.left{
+    flex: 0 0 21%;
+    max-width: 21%;
+
+}
+.mid{
+    flex: 0 0 58%;
+    max-width: 58%;
+}
+.right{
+    flex: 0 0 21%;
+    max-width: 21%;
+}
+.contain{
+    width: 100%;
+    background-color:#F0F8FF;
+    padding: 0;
+
+}
+.subject_list{
+    list-style: none;
+    position: relative;
+    left: 0px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+.subject_name{
+
+    border-bottom:2px solid #92ae8f;
+    padding: 10px;
+    cursor:pointer;
+
+
+}
+table{
+    margin-bottom: 0;
+    border:none;
+    padding-left: 2px;
+
+
+}
+.subject_name > span{
+    line-height: 20px;
+
+}
+._title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    background-image: url("./bc3.jpg");
+    line-height: 40px;
+    background-size: contain;
+}
+.mid_header{
+    background-color: rgba(228, 15, 15, 0.877);
+    line-height: 40px;
+    align-items: center;
+    display: flex;
+
+}
+.hocky{
+    padding: 0px ;
+}
+.add_subject{
+    position: relative;
+    left: 30%;
+}
+#input_subject{
+    width: 270px;
+    border-radius: 7px;
+    height: 30px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+
+}
+.add_subject_contain{
+    display: flex;
+    align-items: center;
+
+
+}
+.hocky_container{
+    flex-basis: 50%;
+}
+.div_hocky{
+  
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 0% 50%, 0% 0%);
+}
+.div_hocky_II{
+    clip-path: polygon(85% 0, 100% 50%, 85% 100%, 0 100%, 15% 50%, 0% 0%);
+    position: relative;
+    left: -18px;
+}
+.mid_container{
+    background-color: aliceblue;
+}
+th{
+    max-width: 33px !important;    
+}
+
+.message_container{
+    position: fixed;
+    width: 350px;
+    height: 500px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    border-radius: 7px;
+    box-sizing: border-box;
+    display: none;
+
+}
+.message_icon{
+    position: fixed;
+    right: 20px;
+    bottom: 0;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    background-color: cadetblue;
+    cursor:pointer;
+    z-index: 1000;
+
+
+
+}
+.msg_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: #7eb2ea;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+.sup_container{
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: -1;
+   height: 100%;
+   border-radius: 5px;
+   transition: all 0.5s;
+   background-color: #83b9f3;
+
+
+
+}
+.img_transform{
+    transform: rotateZ(180deg);
+}
+.supcontainer_transform{
+   left: -185px;
+}
+
+.fillter_user{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 7px;
+    height: 33px;
+    border-radius: 16px;
+
+
+}
+#input_user{
+    width: 87%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    outline: none;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    text-indent: 10px;
+
+}
+.btn_fillter_user{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1e38f7;
+    color: white;
+
+}
+.list_user{
+    margin-top: 15px;
+
+
+}
+.btn_user_chat{
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.user_group{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.user_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+.user_info{
+    position: relative;
+    top: 0px;
+    text-align: left;
+    padding-top: 0px;
+    margin-top: -4px;
+    left: 4px;
+    font-size: 14px;
+
+
+}
+.user_name{
+    position: relative;
+    margin: 0;
+    font-size: 16px;    
+    font-weight: 400;
+    white-space: nowrap; 
+    width: 130px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+.user_message{
+    position: relative;
+    top: -3px;
+    height: 20px;
+    white-space: nowrap; 
+    width: 110px; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin-bottom:0px !important;
+    color: rgba(0, 0, 0, 0.726);
+}
+.list-unstyled >li{
+    margin-bottom: 10px;
+}
+.user_chat_head{
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    padding: 7px 6px 6px 10px;
+    justify-content: space-between;
+    background-color: rgba(0,123,255,.5);
+
+}
+.chat_container{
+    flex-grow: 1;
+    padding: 0px 10px 10px 10px;
+    background-color: lavender ;
+
+}
+.chat_container > ul{
+    list-style: none;
+    padding: 0;
+
+}
+.chat_container > ul>li{
+    margin-top: 13px;
+
+
+}
+
+.user_input_container{
+    height: 52px;
+    display: flex;
+    justify-content: center;
+}
+.user_name_chat{
+    position: relative;
+    margin: 0;
+    font-size: 16px;    
+    font-weight: 500;
+    white-space: nowrap; 
+}
+.user_message_chat{
+    position: relative;
+    top: -3px;
+    white-space: pre-wrap;
+    margin-bottom:0px !important;
+    color: rgba(0, 0, 0, 0.726);
+    max-width: 230px;
+    height: auto;
+    background-color: rgba(162, 199, 201, 0.993);
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+}
+.user_status{
+    position: relative;
+    height: 20px;
+    white-space: nowrap;
+    width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0px !important;
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 12;
+    font-size: 14px;
+    color: #135f19;
+    text-indent: 2px;
+}
+.user_util{
+    align-items: center;
+    font-size: 16px;
+}
+.btn_util{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 11px;
+    color: rgb(255, 251, 251);
+    margin: 7px;
+    background-color: transparent;
+    font-size: 18px;
+}   
+.btn_util:active{
+    background-color: #1e38f7;
+    outline: none;
+}
+
+.message_container_toggle{
+    width: 0px;
+    height: 0px;
+    display: none;
+
+}
+
+.btn_util_time{
+    top: -2px;
+    position: relative;
+}
+.user_name_head{
+    font-size: 15px;
+    font-weight: 500;
+}
+.user_info_head{
+    margin-left: 3px;
+    cursor:pointer;
+    top: 3px;
+
+}
+.input_msg{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 90%;
+    background-color: whitesmoke;
+    margin-top: 7px;
+    height: 33px;
+    border-radius: 16px;
+}
+.open_extend{
+    position: absolute;
+    background-color: royalblue;
+    padding: 2px !important;
+    cursor:pointer;
+    transform: translateX(-119%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 22px;
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+
+}
+
+div.logout > div.logout_container{
+    display: flex;
+    flex-direction: row;    
+}
+#user_img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+
+
+}
+.xinchao{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 10px;
+    color:rgb(255, 251, 251);
+    
+    
+}
+.btn_logout{
+    margin-left: 10px;
+
+}
+
+.container_list tr > td:first-child{
+    padding-left: 2px;
+
+}
+.container_list tr:not(:first-child){
+
+}
+.btn_remove_subject{
+    width: 100%;
+    border: none;
+
+
+}
+.right_main{
+    background-color: #81b22d;
+}
+.right_head{
+    background-image: url("./bc3.jpg");
+    background-repeat: round;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 8px 15px 0px;
+    border: none;
+    justify-content: center;
+
+
+
+    
+}
+.right_head > .nav-item{
+    width: 50%;
+
+}
+.right_head > .nav-item > .nav-link{
+    padding: 4px;
+    text-align: center;
+
+}

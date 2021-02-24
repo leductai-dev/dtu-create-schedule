@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "name": "Samsung Galaxy S7",
+      "description": "Trung hiếu ngu",
+      "price": "100",
+      "status": false,
+      "id": 2
+    },
+    {
+      "name": "Samsung S11",
+      "description": "Xuất xứ tai mỹ",
+      "price": "500",
+      "status": true,
+      "id": 5
+    }
+  ]
+}

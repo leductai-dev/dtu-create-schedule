@@ -1,0 +1,104 @@
+
+div.modal_background{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+    width: 100%;
+    height:100%;
+    background-color: #2f343ca2;
+    z-index:1000000;
+
+}
+div.modal_info{
+    position: relative;
+    top: 48%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    background: url(../images/bd_head_modal.jpg) left top repeat-x;
+    padding: 0;
+    width: 400px;
+    height: 500px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
+
+
+}
+.modal_head{
+    height: 43px;
+    background: url(../images/bd_head_modal.jpg) left top repeat-x;
+    position: relative;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.modal_content{
+    padding: 0 4px 4px;
+    flex-grow: 1;
+    position: relative;
+    background: url(../images/bd_head_modal.jpg) left top repeat-x;
+    top: -2px;
+    background-size: cover;
+
+}
+a.active{
+    background-color: transparent;
+    color:yellow;
+}
+.tab_customize{
+    width: 100%;
+    height: 100%;
+    background-color: #f0f8ff;
+    padding-top: 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.cl_p1128{
+    line-height: 41px;
+    padding: 11px 32px;
+    padding: 11px 29px 11px 34px;
+    position: relative;
+
+}
+.modal_head>li{
+    position: relative;
+
+}
+.modal_head>li:first-child::after{
+    width: 2px;
+    position: absolute;
+    height: 90%;
+    content: "";
+    z-index: 10000;
+    top: 2px;
+    right: 0px;
+    background: #dee2e6bf;
+    border-radius: 30px;
+
+    
+}
+.close_modal{
+    width: 86px;
+    height: 34px;
+    background: url(../images/bd_head_modal.jpg) left top repeat-x;
+    background-size: cover;
+    position: absolute;
+    bottom: 6px;
+    right: 3px;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    border-top-left-radius: 40px;
+    line-height: 35px;
+    cursor:pointer;
+}
+.close_modal:hover{
+    color:yellow;
+}
